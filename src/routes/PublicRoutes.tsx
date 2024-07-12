@@ -14,6 +14,7 @@ const About = withLazyComponent(lazy(() => import('../screens/About')))
 const Technologies = withLazyComponent(lazy(() => import('../screens/Technologies')))
 const Projects = withLazyComponent(lazy(() => import('../screens/Project')))
 const Contact = withLazyComponent(lazy(() => import('../screens/Contact')))
+const NotFoundPage = withLazyComponent(lazy(() => import('../screens/NotFoundPage')))
 
 const PublicRoutes = (): JSX.Element => (
   <BrowserRouter>
@@ -58,6 +59,7 @@ const PublicRoutes = (): JSX.Element => (
           </LayoutDefault>
         }
       />
+      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   </BrowserRouter>
 )
