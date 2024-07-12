@@ -1,17 +1,22 @@
-import { Route, Routes, HashRouter } from 'react-router-dom'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
+import { lazy } from 'react'
+
+// hoc
+import withLazyComponent from '../hoc/withLazyComponent'
 
 // components
 import LayoutDefault from '../components/layout/LayoutDefault'
 
 // get screens
-import Home from '../screens/Home'
-import About from '../screens/About'
-import Technologies from '../screens/Technologies'
-import Projects from '../screens/Project'
-import Contact from '../screens/Contact'
+
+const Home = withLazyComponent(lazy(() => import('../screens/Home')))
+const About = withLazyComponent(lazy(() => import('../screens/About')))
+const Technologies = withLazyComponent(lazy(() => import('../screens/Technologies')))
+const Projects = withLazyComponent(lazy(() => import('../screens/Project')))
+const Contact = withLazyComponent(lazy(() => import('../screens/Contact')))
 
 const PublicRoutes = (): JSX.Element => (
-  <HashRouter>
+  <BrowserRouter>
     <Routes>
       <Route
         path="/"
@@ -54,7 +59,7 @@ const PublicRoutes = (): JSX.Element => (
         }
       />
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 )
 
 export default PublicRoutes
