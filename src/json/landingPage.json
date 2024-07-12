@@ -1,11 +1,11 @@
 {
   "logos": {
-    "logo": "src/assets/logo.png"
+    "logo": "assets/logo.png"
   },
   "personalDetails": {
     "name": "Ajay Singh",
     "tagline": "I develop apps for web, mobile, and desktop.",
-    "img": "src/assets/profile.png",
+    "img": "assets/profile.png",
     "about": "I love coding with JavaScript, especially for websites using React and React Native. I also enjoy working with Express.js, Node.js, MySQL, and MongoDB to build strong back-end systems. I'm always excited to push the limits of technology and find new ways to solve real-world problems."
   },
   "socialMediaUrl": {
@@ -27,25 +27,25 @@
     }
   ],
   "techStackDetails": {
-    "html": "src/assets/techstack/html.png",
-    "css": "src/assets/techstack/css.png",
-    "js": "src/assets/techstack/js.png",
-    "react": "src/assets/techstack/react.png",
-    "redux": "src/assets/techstack/redux.png",
-    "sass": "src/assets/techstack/sass.png",
-    "tailwind": "src/assets/techstack/tailwind.png",
-    "bootstrap": "src/assets/techstack/bootstrap.png",
-    "vscode": "src/assets/techstack/vscode.png",
-    "postman": "src/assets/techstack/postman.png",
-    "npm": "src/assets/techstack/npm.png",
-    "git": "src/assets/techstack/git.png",
-    "github": "src/assets/techstack/github.png",
-    "figma": "src/assets/techstack/figma.png"
+    "html": "assets/techstack/html.png",
+    "css": "assets/techstack/css.png",
+    "js": "assets/techstack/js.png",
+    "react": "assets/techstack/react.png",
+    "redux": "assets/techstack/redux.png",
+    "sass": "assets/techstack/sass.png",
+    "tailwind": "assets/techstack/tailwind.png",
+    "bootstrap": "assets/techstack/bootstrap.png",
+    "vscode": "assets/techstack/vscode.png",
+    "postman": "assets/techstack/postman.png",
+    "npm": "assets/techstack/npm.png",
+    "git": "assets/techstack/git.png",
+    "github": "assets/techstack/github.png",
+    "figma": "assets/techstack/figma.png"
   },
   "projectDetails": [
     {
       "title": "React + TS (Project)",
-      "image": "src/assets/projects/react-project.png",
+      "image": "assets/projects/react-project.png",
       "description": "I created an website in React + typescript .",
       "techstack": "React, Typescript",
       "previewLink": "https://our-studio-website-kgd3.vercel.app/#/project",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Cyclops App (Attendance portal)",
-      "image": "src/assets/projects/cyclops.png",
+      "image": "assets/projects/cyclops.png",
       "description": "I created an attendance app in React Native called Cyclops App. This app is designed to efficiently track and manage attendance records.",
       "techstack": "React, React Native, Express JS",
       "previewLink": "https://github.com/sudoajay/cyclops-app",
@@ -61,7 +61,7 @@
     },
     {
       "title": "9xBuddy (Mobile)",
-      "image": "src/assets/projects/9xbuddy-mobile.png",
+      "image": "assets/projects/9xbuddy-mobile.png",
       "description": "I created an app in React Native called 9xBuddy Mobile App. This app serves as an online video download helper.",
       "techstack": "React Native, Express JS",
       "previewLink": "https://123sudo.com/mobile/9xbuddy",
@@ -69,7 +69,7 @@
     },
     {
       "title": "9xBuddy (Desktop)",
-      "image": "src/assets/projects/9xbuddy-desktop.png",
+      "image": "assets/projects/9xbuddy-desktop.png",
       "description": "I created an app in React called 9xBuddy Desktop App. This app serves as an online video download helper.",
       "techstack": "React , Electron , Express JS",
       "previewLink": "https://123sudo.com/desktop/9xbuddy",
@@ -77,7 +77,7 @@
     },
     {
       "title": "Admin Panel",
-      "image": "src/assets/projects/admin-panel.png",
+      "image": "assets/projects/admin-panel.png",
       "description": "I created an admin panel in Next.js where users can manage the website and change the website's database from it.",
       "techstack": "Next JS ,  Express JS",
       "previewLink": "https://github.com/sudoajay/admin-panel-nextjs",
@@ -85,7 +85,7 @@
     },
     {
       "title": "Ecommerce Website",
-      "image": "src/assets/projects/ecommerce.png",
+      "image": "assets/projects/ecommerce.png",
       "description": "I created an e-commerce website in Next.js and linked it to an Express.js database",
       "techstack": "Next JS ,Express JS",
       "previewLink": "https://fitness-plans-sudo.vercel.app/",
@@ -93,7 +93,7 @@
     },
     {
       "title": "Wonder Tour",
-      "image": "src/assets/projects/wonder-tour.png",
+      "image": "assets/projects/wonder-tour.png",
       "description": "I created a tour website using PHP, HTML, and CSS where people can book tour plans.",
       "techstack": "PHP ,HTML & CSS",
       "previewLink": "https://github.com/sudoajay/Wonder-Tour",
@@ -101,7 +101,7 @@
     },
     {
       "title": "Blog Website",
-      "image": "src/assets/projects/blog-website.png",
+      "image": "assets/projects/blog-website.png",
       "description": "I created a simple blog website in Django where I write my blogs about anything I like.",
       "techstack": "Django ,Python , MySQL",
       "previewLink": "https://github.com/sudoajay/Blog-Website",
@@ -109,7 +109,7 @@
     },
     {
       "title": "Unity 3D",
-      "image": "src/assets/projects/stats-3D.png",
+      "image": "assets/projects/stats-3D.png",
       "description": "I created a 3D Unity project where I show stats in 3D. All the work was done in Unity.",
       "techstack": "C# , Unity",
       "previewLink": "https://www.youtube.com/watch?v=Ymx5Bq4lUD8",
@@ -117,7 +117,7 @@
     },
     {
       "title": "Unity 2D",
-      "image": "src/assets/projects/stats-2D.png",
+      "image": "assets/projects/stats-2D.png",
       "description": "I created a 2D Unity project where I show stats in 2D. All the work was done in Unity.",
       "techstack": "C# , Unity",
       "previewLink": "https://www.youtube.com/watch?v=Bk1a2DY4qto",
@@ -125,7 +125,7 @@
     },
     {
       "title": "Namaz Alert (Android App)",
-      "image": "src/assets/projects/namaz-Alert.png",
+      "image": "assets/projects/namaz-Alert.png",
       "description": "I created an Android app called Namaz Alert using Kotlin. This app alerts people when it's time for Namaz.",
       "techstack": "Kotlin , Java",
       "previewLink": "https://github.com/The-Waar-Room/Namaz-Alert",
@@ -133,7 +133,7 @@
     },
     {
       "title": "SudoQr Code (Android App)",
-      "image": "src/assets/projects/SudoQR.png",
+      "image": "assets/projects/SudoQR.png",
       "description": "I created an Android app called Suqo QR Code, which allows users to scan and create QR codes.",
       "techstack": "Kotlin , Java",
       "previewLink": "https://github.com/The-Waar-Room/Qr-And-Barcode-Scanner",
