@@ -8,7 +8,7 @@ type LayoutDefaultProps = {
 
 const LayoutDefault = ({ children }: LayoutDefaultProps): JSX.Element => {
   return (
-    <section>
+    <section className="bg-white dark:bg-dark-mode ">
       <Header />
       <main>{children}</main>
       <Footer />
