@@ -62,13 +62,13 @@ const Technologies: React.FC = () => {
   return (
     <main className="container mx-auto max-w-screen-lg pt-10 pb-20">
       <section ref={techStackRef} className="animate-section">
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold ml-10">
           Tech Stack
         </h1>
       </section>
       <section
         ref={techStackRef}
-        className="grid grid-cols-5 md:grid-cols-6 lg:grid-cols-7 items-center gap-10 animate-section mt-2 "
+        className="grid grid-cols-5 md:grid-cols-6 lg:grid-cols-7 items-center gap-10 animate-section mt-2 mx-10 "
       >
         <img src={nextjs} title="Nextjs" alt="Nextjs" />
         <img src={react} title="React" alt="React" />
@@ -87,13 +87,13 @@ const Technologies: React.FC = () => {
         <img src={sass} title="SASS" alt="SASS" />
       </section>
       <section ref={toolsRef} className="animate-section">
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold ml-10">
           Tools
         </h1>
       </section>
       <section
         ref={toolsRef}
-        className="grid grid-cols-5 md:grid-cols-6 lg:grid-cols-7 items-center gap-10 animate-section"
+        className="grid grid-cols-5 md:grid-cols-6 lg:grid-cols-7 items-center gap-10 animate-section mx-10"
       >
         <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" />
         <img src={android_studio} title="Android Studio" alt="Android Studio" />
