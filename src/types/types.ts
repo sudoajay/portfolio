@@ -22,6 +22,13 @@ export interface EducationDetail {
 }
 
 export interface TechStackDetails {
+  android: string
+  nextjs: string
+  spring_boot: string
+  C_Sharp: string
+  python: string
+  django: string
+  VB_NET: string
   html: string
   css: string
   js: string
@@ -31,6 +38,12 @@ export interface TechStackDetails {
   tailwind: string
   bootstrap: string
   vscode: string
+  android_studio: string
+  IntelliJ_IDEA: string
+  pycharm: string
+  sublime: string
+  unity: string
+  ui_path: string
   postman: string
   npm: string
   git: string

@@ -17,7 +17,7 @@
       "Position": "Master of Computer Application",
       "Company": "Indira Gandhi National Open University",
       "Type": "Distance",
-      "Duration": "Aug 2021 - Jun 2023"
+      "Duration": "Aug 2022 - Jun 2024"
     },
     {
       "Position": "Bachelor's in Computer Application",
@@ -27,15 +27,28 @@
     }
   ],
   "techStackDetails": {
+    "nextjs": "assets/techstack/nextjs.png",
+    "react": "assets/techstack/react.png",
+    "redux": "assets/techstack/redux.png",
+    "spring_boot": "assets/techstack/Spring_Boot.png",
+    "C_Sharp": "assets/techstack/C_Sharp.png",
+    "python": "assets/techstack/python.png",
+    "django": "assets/techstack/django.png",
+    "android": "assets/techstack/android.png",
+    "VB_NET": "assets/techstack/VB.NET.png",
     "html": "assets/techstack/html.png",
     "css": "assets/techstack/css.png",
     "js": "assets/techstack/js.png",
-    "react": "assets/techstack/react.png",
-    "redux": "assets/techstack/redux.png",
     "sass": "assets/techstack/sass.png",
     "tailwind": "assets/techstack/tailwind.png",
     "bootstrap": "assets/techstack/bootstrap.png",
     "vscode": "assets/techstack/vscode.png",
+    "android_studio": "assets/techstack/android-studio.png",
+    "IntelliJ_IDEA": "assets/techstack/IntelliJ_IDEA.webp",
+    "pycharm": "assets/techstack/pycharm.png",
+    "sublime": "assets/techstack/sublime.png",
+    "unity": "assets/techstack/unity.png",
+    "ui_path": "assets/techstack/ui_path.png",
     "postman": "assets/techstack/postman.png",
     "npm": "assets/techstack/npm.png",
     "git": "assets/techstack/git.png",
@@ -44,12 +57,47 @@
   },
   "projectDetails": [
     {
+      "title": "Welnex Automation",
+      "image": "assets/projects/welnex-automation.png",
+      "description": "I created the Welnex Automation website using Next.js with TypeScript, leveraging the new App Router feature in Next.js.",
+      "techstack": "Next-JS , TypeScript",
+      "previewLink": "https://welnexautomation.com/"
+    },
+    {
+      "title": "Dashboard Welnex Automation",
+      "image": "assets/projects/welnex-automation-dashboard.png",
+      "description": "I developed a dashboard for Welnex Automation to provide clients with analytics and statistics about their bots, all built using Next.js.",
+      "techstack": "Next-JS , Spring boot Backened",
+      "previewLink": "https://dashboard.welnexautomation.com/login"
+    },
+    {
+      "title": "9XConvert (Desktop)",
+      "image": "assets/projects/9xconvert.png",
+      "description": "I developed 9x Convert, a desktop application built with Electron. This offline app allows users to convert files into multiple formats seamlessly.",
+      "techstack": "Electron, Typescript",
+      "previewLink": "https://123sudo.com/desktop/9xconvert"
+    },
+    {
       "title": "React + TS (Project)",
       "image": "assets/projects/react-project.png",
-      "description": "I created an website in React + typescript .",
+      "description": "I created a website using React and TypeScript, incorporating GSAP animations.",
       "techstack": "React, Typescript",
       "previewLink": "https://our-studio-website-kgd3.vercel.app/#/project",
       "githubLink": "https://github.com/sudoajay/our-studio-website"
+    },
+    {
+      "title": "9xBuddy (Mobile)",
+      "image": "assets/projects/9xbuddy-mobile.png",
+      "description": "I created an app in React Native called 9xBuddy Mobile App. This app serves as an online video download helper.",
+      "techstack": "React Native, Express JS",
+      "previewLink": "https://123sudo.com/mobile/9xbuddy"
+    },
+    {
+      "title": "9xBuddy (Desktop)",
+      "image": "assets/projects/9xbuddy-desktop.png",
+      "description": "I created an app in Electron called 9xBuddy Desktop App. This app serves as an online video download helper.",
+      "techstack": "React , Electron , Express JS",
+      "previewLink": "https://123sudo.com/desktop/9xbuddy"
     },
     {
       "title": "Cyclops App (Attendance portal)",
@@ -59,22 +107,7 @@
       "previewLink": "https://github.com/sudoajay/cyclops-app",
       "githubLink": "https://github.com/sudoajay/cyclops-app"
     },
-    {
-      "title": "9xBuddy (Mobile)",
-      "image": "assets/projects/9xbuddy-mobile.png",
-      "description": "I created an app in React Native called 9xBuddy Mobile App. This app serves as an online video download helper.",
-      "techstack": "React Native, Express JS",
-      "previewLink": "https://123sudo.com/mobile/9xbuddy",
-      "githubLink": "https://123sudo.com/mobile/9xbuddy"
-    },
-    {
-      "title": "9xBuddy (Desktop)",
-      "image": "assets/projects/9xbuddy-desktop.png",
-      "description": "I created an app in React called 9xBuddy Desktop App. This app serves as an online video download helper.",
-      "techstack": "React , Electron , Express JS",
-      "previewLink": "https://123sudo.com/desktop/9xbuddy",
-      "githubLink": "https://123sudo.com/desktop/9xbuddy"
-    },
+
     {
       "title": "Admin Panel",
       "image": "assets/projects/admin-panel.png",

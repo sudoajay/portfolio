@@ -1,4 +1,5 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
+import useSingleEffect from '../components/useSingleEffect'
 import gsap from 'gsap'
 import Data from '../json/landingPage.json'
 import { AppDetails } from '../types/types'
@@ -11,8 +12,9 @@ const Home: React.FC = () => {
   const elementsRef = useRef<HTMLHeadingElement[]>([])
   const imageRef = useRef<HTMLImageElement | null>(null)
 
-  useEffect(() => {
+  useSingleEffect(() => {
     const tl = gsap.timeline()
+    console.log(tl)
     tl.from(elementsRef.current, {
       y: 30,
       opacity: 0,
@@ -29,7 +31,7 @@ const Home: React.FC = () => {
       },
       '-=0.5'
     )
-  }, [])
+  })
 
   const addToRefs = (el: HTMLHeadingElement) => {
     if (el && !elementsRef.current.includes(el)) {
